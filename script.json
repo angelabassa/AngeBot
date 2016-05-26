@@ -1,8 +1,9 @@
 {
-    "BOT": "Hi there!\nI’m the personal bot of Angela, a Data Science nerd from Boston.\n![angela](https://raw.githubusercontent.com/angelabassa/smooch-bot-example/master/img/angela.jpg)\nWant to know more about bots or learn about Angela? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Angela](postback:learn_about_angela) %[One random fact!](postback:random_fact)",
+    "HELLO": "Hi there!\nI’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now."
+    "DEETS": "Angela is a Data Science nerd from Boston.\n!Want to know more about bots or learn about Angela? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Angela](postback:learn_about_angela) %[One random fact!](postback:random_fact)",
     "HELLO": "Hey, I'm AngeBot! Do you want to tell Angela that you're talking to her bot? %[Tell her](postback:twitter)",
     "TELL HER": "Let's tweet @ Angela so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Angela](http://bit.ly/angebot-twitter)",
-    "I LOVE YOU": "Awh, shucks! I love you too!",
+    "I LOVE YOU": "Awh, shucks! I ❤️ you too!",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, AngeBot is back."
 }
