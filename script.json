@@ -16,6 +16,7 @@
     "START":"So you want to learn about Angela? Just say HELLO to get started, or ask for HELP.",
     "TELL HER": "Let's tweet @ Angela so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Angela](http://bit.ly/angebot-twitter)",
     "I LOVE YOU": "Awh, shucks! I ❤️ you too!",
+    "FUCK YOU": "Language, please! 🙅 There's no need to be rude."
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, AngeBot is back."
 }
