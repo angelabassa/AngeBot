@@ -10,7 +10,7 @@
     "HELP": "I can answer basic questions about Angela's work, her pets, data science, Boston, and a few random facts.\n Want to know more about bots or learn about Angela? %[I'm here for the bot](postback:bot) %[Learn about Angela](postback:about)",
     "I'M HERE FOR THE BOT": "bot",
     "BOT":"bot",
-    "LEARN ABOUT ANGELA": "Angela is a Data Science nerd from Boston. (https://raw.githubusercontent.com/angelabassa/AngeBot/img/angela.jpg)",
+    "LEARN ABOUT ANGELA": "Angela is a Data Science nerd from Boston. \n![angela](https://raw.githubusercontent.com/angelabassa/AngeBot/img/angela.jpg)",
     "ABOUT":"Angela is a Data Science nerd from Boston. ",
     "DATA SCIENCE": "ds",
     "WHAT IS DATA SCIENCE?": "ds",
