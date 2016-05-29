@@ -1,5 +1,5 @@
 {
-    "HELLO": "Hi there!\nI’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Tell her](http://bit.ly/angebot-tell)  %[What else can I ask about](postback:man)",
+    "HELLO": "Hi there!\nI’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Tell her](http://bit.ly/angebot-twitter)  %[What else can I ask about?](postback:man)",
     "HELP": "Angela is a Data Science nerd from Boston.\nWant to know more about bots or learn about Angela? %[I'm here for the bot](postback:bot) %[Learn about Angela](postback:about) %[One random fact!](postback:random_fact)",
     "MAN": "Here are the commands I understand:\nYou can ask about DATA SCIENCE, WORK, MIT, LINKEDIN, TWITTER, BOT, BERT, SNOOP, or BOSTON. There a few others too, but not many.",
     "DATA SCIENCE":"ds",
@@ -14,7 +14,7 @@
     "BOSTON":"boston",
     "BYE":"See you later aligator! 🐊",
     "START":"So you want to learn about Angela? Just say HELLO to get started, or ask for HELP.",
-    "TELL HER": "Let's tweet @ Angela so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Angela](http://bit.ly/angebot-tell)",
+    "TELL HER": "Let's tweet @ Angela so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Angela](http://bit.ly/angebot-twitter)",
     "I LOVE YOU": "Awh, shucks! I ❤️ you too!",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, AngeBot is back."
