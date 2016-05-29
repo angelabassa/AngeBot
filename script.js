@@ -7,13 +7,13 @@ const scriptRules = require('./script.json');
 
 module.exports = new Script({
     processing: {
-        prompt: (bot) => bot.say('Beep boop...'),
+     //   prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
 
     start: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Angela? Just say HELLO to get started.')
+            return bot.say('So you want to learn about Angela? Just say HELLO to get started, or ask for HELP.')
                 .then(() => 'speak');
         }
     },
@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`I didn't understand that. \nI'm a rudimentary bot, you'll have to use one of the pre-programmed commands for now.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
