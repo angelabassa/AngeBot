@@ -1,5 +1,5 @@
 {
-    "HELLO":"Hi there!\n You can say START to get started, or you can also ask for HELP.",
+    "HELLO":"Hi there!\n How can I help you today? %[Say Hi to Angela](http://bit.ly/angebot-twitter) %[Learn about Angela](postback:about)",
     "START": "I’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Tell her](http://bit.ly/angebot-twitter)  %[What else can I ask about?](postback:man)",
     "TELL HER": "Let's tweet @ Angela so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Angela](http://bit.ly/angebot-twitter)",
     "WHAT ELSE CAN I ASK ABOUT?": "I can answer basic questions about Angela's work, her pets, data science, Boston, and a few random facts. You can also tell Angela you're chatting with me: %[Tweet Angela](http://bit.ly/angebot-twitter)",
