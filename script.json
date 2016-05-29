@@ -5,7 +5,7 @@
     "WHAT ELSE CAN I ASK ABOUT?": "Here are the commands I understand:\nYou can ask about DATA SCIENCE, WORK, MIT, LINKEDIN, TWITTER, BOT, BERT, SNOOP, or BOSTON. There a few others too, but not many.",
     "MAN": "Here are the commands I understand:\nYou can ask about DATA SCIENCE, WORK, MIT, LINKEDIN, TWITTER, BOT, BERT, SNOOP, or BOSTON. There a few others too, but not many.",
     "HELP": "Angela is a Data Science nerd from Boston.\nWant to know more about bots or learn about Angela? %[I'm here for the bot](postback:bot) %[Learn more about Angela](postback:about) %[One random fact!](postback:random)",
-    "I'M HERE FOR THE BOT": "bot"
+    "I'M HERE FOR THE BOT": "bot",
     "BOT":"bot",
     "LEARN MORE ABOUT ANGELA": "about",
     "ABOUT":"about",
