@@ -1,9 +1,9 @@
 {
     "HELLO": "Hi there!\nI’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Tell her](postback:twitter)",
-    "OK": "Angela is a Data Science nerd from Boston.\nWant to know more about bots or learn about Angela? %[I'm here for the bot](postback:bot) %[Learn about Angela](postback:about) %[One random fact!](postback:random_fact)",
-    "HELP": "Here are the commands I understand:\nYou can ask about DATA SCIENCE, WORK, MIT, LINKEDIN, TWITTER, BOT, BERT, SNOOP, or BOSTON. There a few others too, but not many.",
+    "HELP": "Angela is a Data Science nerd from Boston.\nWant to know more about bots or learn about Angela? %[I'm here for the bot](postback:bot) %[Learn about Angela](postback:about) %[One random fact!](postback:random_fact)",
+    "MAN": "Here are the commands I understand:\nYou can ask about DATA SCIENCE, WORK, MIT, LINKEDIN, TWITTER, BOT, BERT, SNOOP, or BOSTON. There a few others too, but not many.",
     "DATA SCIENCE":"ds",
-    "About":"about",
+    "ABOUT":"about",
     "WORK":"w",
     "MIT":"m",
     "TWITTER":"t",
