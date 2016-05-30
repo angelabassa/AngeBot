@@ -23,7 +23,7 @@ module.exports = new Script({
         receive: (bot, message) => {
             const name = message.text;
             return bot.setProp('name', name)
-                .then(() => bot.say(`Great! I'll call you ${name} Is that OK? %[Yes](postback:yes) %[No](postback:no)`))
+                .then(() => bot.say(`Great! I\'ll call you ${name} Is that OK? %[Yes](postback:yes) %[No](postback:no)`))
                 .then(() => 'finish');
         }
     },
@@ -61,7 +61,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that. \nI'm a rudimentary bot, you'll have to use one of the pre-programmed commands for now. You can ask for HELP if you\'re lost.`).then(() => 'speak');
+                    return bot.say(`Sorry ${name}, I didn\'t understand that. \nI\'m a rudimentary bot, you\'ll have to use one of the pre-programmed commands for now. You can ask for HELP if you\'re lost.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
