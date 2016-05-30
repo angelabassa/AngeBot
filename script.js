@@ -7,30 +7,13 @@ const scriptRules = require('./script.json');
 
 module.exports = new Script({
     processing: {
-     //   prompt: (bot) => bot.say('Beep boop...'),
+        //prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
 
     start: {
         receive: (bot) => {
-            return bot.say('Hi! I\'m AngeBot!')
-                .then(() => 'askName');
-        }
-    },
-
-    askName: {
-        prompt: (bot) => bot.say('What\'s your name?'),
-        receive: (bot, message) => {
-            const name = message.text;
-            return bot.setProp('name', name)
-                .then(() => bot.say(`Great! I\'ll call you ${name} Is that OK? %[Yes](postback:yes) %[No](postback:no)`))
-                .then(() => 'finish');
-        }
-    },
-
-    finish: {
-        receive: (bot) => {
-            return bot.say( `Hi ${name}, how can I help you today? %[Say hi to Angela](postback:tweet) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)')
+            return bot.say('Hi! I\'m AngeBot! How can I help you today? %[Say hi to Angela](postback:tweet) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)')
                 .then(() => 'speak');
         }
     },
@@ -61,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Sorry ${name}, I didn\'t understand that. \nI\'m a rudimentary bot, you\'ll have to use one of the pre-programmed commands for now. You can ask for HELP if you\'re lost.`).then(() => 'speak');
+                    return bot.say(`I didn't understand that. \nI'm a rudimentary bot, you'll have to use one of the pre-programmed commands for now. You can ask for HELP if you're lost.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
