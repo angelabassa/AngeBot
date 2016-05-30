@@ -1,10 +1,10 @@
 {
-  "name": "Esther Bot",
-  "description": "Esther, bot.",
-  "keywords": ["esther", "bot", "express"],
-  "website": "https://estherbot.com",
-  "repository": "https://github.com/esthercrawford/smooch-bot-example",
-  "logo": "http://www.estherbot.com/wp-content/uploads/2016/03/EstherBot-photo.png",
+  "name": "Ange Bot",
+  "description": "Angela, bot.",
+  "keywords": ["angela", "bot", "express"],
+  "website": "http://www.angelabassa.com",
+  "repository": "https://github.com/angelabassa/angebot",
+  "logo": "https://github.com/angelabassa/angebot/blob/master/img/angela.jpg",
   "env": {
     "SMOOCH_APP_TOKEN": {
       "description": "Your Smooch app token which is used to initialize the web widget.",
