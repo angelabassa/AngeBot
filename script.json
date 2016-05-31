@@ -5,7 +5,7 @@
     "WHO AM I TALKING TO?": "I’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Say hi to Angela](postback:tweet)  %[What else can I ask about?](postback:man)",
     "START": "I’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Say hi to Angela](postback:tweet)  %[What else can I ask about?](postback:man)",
     "SAY HI TO ANGELA": "Let's tweet @ Angela so she knows you're chatting with het bot. Here's a message that's ready to go: %[Tweet Angela](http://bit.ly/angebot-twitter)",
-    "Buy Angela a 🍺": "Aww, that's a great idea! I'm sure she'll love it! %[Visit her patreon.com page](https://www.patreon.com/bePatron?patAmt=5&u=3393251)",
+    "BUY ANGELA A 🍺": "Aww, that's a great idea! I'm sure she'll love it! %[Visit her patreon.com page](https://www.patreon.com/bePatron?patAmt=5&u=3393251)",
     "WHAT ELSE CAN I ASK ABOUT?": "I can answer basic questions about Angela.\n Want to know more about bots or learn about Angela? %[I'm here for the bot](postback:bot) %[Learn about Angela](postback:about) %[Buy Angela a 🍺](postback:beer)",
     "MAN": "I can answer basic questions about Angela.\n Want to know more about bots or learn about Angela? %[I'm here for the bot](postback:bot) %[Learn about Angela](postback:about) %[Buy Angela a 🍺](postback:beer)",
     "HELP": "I can answer basic questions about Angela.\n Want to know more about bots or learn about Angela? %[I'm here for the bot](postback:bot) %[Learn about Angela](postback:about) %[Buy Angela a 🍺](postback:beer)",
