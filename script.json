@@ -1,5 +1,9 @@
 {
     "HELLO":"Hi there!\n How can I help you today? %[Say hi to Angela](http://bit.ly/angebot-twitter) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)",
+    "HI":"Hi there!\n How can I help you today? %[Say hi to Angela](http://bit.ly/angebot-twitter) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)",
+    "HOWDY":"Hi there!\n How can I help you today? %[Say hi to Angela](http://bit.ly/angebot-twitter) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)",
+    "SUP":"Hi there!\n How can I help you today? %[Say hi to Angela](http://bit.ly/angebot-twitter) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)",
+    "YO":"Hi there!\n How can I help you today? %[Say hi to Angela](http://bit.ly/angebot-twitter) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)",
     "WHO": "I’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Say hi to Angela](postback:tweet)  %[What else can I ask about?](postback:man)",
     "WHO ARE YOU?": "I’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Say hi to Angela](postback:tweet)  %[What else can I ask about?](postback:man)",
     "WHO AM I TALKING TO?": "I’m AngeBot, Angela's personal chat bot. 🤖 Chat bots are very hot right now. Do you want to tell Angela that you're talking to her bot? %[Say hi to Angela](postback:tweet)  %[What else can I ask about?](postback:man)",
