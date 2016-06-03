@@ -54,7 +54,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say('I\'m sorry, but I\'m still a rudimentary bot, you\'ll have to use one of the pre-programmed commands for now. You can ask for HELP if you\'re lost.').then(() => 'speak');
+                    return bot.say('I\'m sorry, but I\'m still a rudimentary bot, you\'ll have to use one of the pre-programmed commands for now. You can ask for HELP if you\'re lost. %[Ask for some help.](postback:help)').then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
