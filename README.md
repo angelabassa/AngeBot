@@ -4,7 +4,7 @@ If you want a slightly more sophisticated setup and are comfortable using the co
 If you want to test out EstherBot live, go say hi to Esther on your platform of choice:
 http://estherbot.com
 
-If you want to test out AngeBot, head to angebot.herokuapp.com
+If you want to test out AngeBot, head to http://angebot.herokuapp.com
 
 The "official*" implementation is at www.angelabassa.com
 
