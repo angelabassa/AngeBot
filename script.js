@@ -14,19 +14,20 @@ module.exports = new Script({
     start: {
         receive: (bot) => {
             return bot.say('Hi! I\'m AngeBot!')
-                            .then(() => 'askName');
+ //                           .then(() => 'askName');
+                            .then(() => 'speak');
         }
     },
 
-    askName: {
-        prompt: (bot) => bot.say('What should I call you?'),
-        receive: (bot, message) => {
-            const name = message.text;
-            return bot.setProp('name', name)
-                .then(() => bot.say(`It's nice to meet you, ${name}. How can I help you today? %[Say hi to Angela](postback:tweet) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)`))
-                .then(() => 'speak');
-        }
-    },
+//    askName: {
+//        prompt: (bot) => bot.say('What should I call you?'),
+//        receive: (bot, message) => {
+//            const name = message.text;
+//            return bot.setProp('name', name)
+//                .then(() => bot.say(`It's nice to meet you, ${name}. How can I help you today? %[Say hi to Angela](postback:tweet) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)`))
+//                .then(() => 'speak');
+//        }
+//    },
 
     speak: {
         receive: (bot, message) => {
