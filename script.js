@@ -6,14 +6,14 @@ const Script = require('smooch-bot').Script;
 const scriptRules = require('./script.json');
 
 module.exports = new Script({
-    processing: {
-        //prompt: (bot) => bot.say('Beep boop...'),
-        receive: () => 'processing'
-    },
+//    processing: {
+//      prompt: (bot) => bot.say('Beep boop...'),
+//        receive: () => 'processing'
+//    },
 
     start: {
         receive: (bot) => {
-            return bot.say('Hi! I\'m AngeBot!')
+            return bot.say('Hi there! 👋\n How can I help you today? %[Say hi to Angela](http://bit.ly/angebot-twitter) %[Learn about Angela](postback:about) %[Who am I talking to?](postback:who)')
  //                           .then(() => 'askName');
                             .then(() => 'speak');
         }
